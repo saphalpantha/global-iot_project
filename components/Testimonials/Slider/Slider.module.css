@@ -1,0 +1,145 @@
+.slider{
+    /* margin: 5rem; */
+    /* width: 60%; */
+    display: flex;
+    /* width: 100%; */
+    /* height: 80vh; */
+    margin: 1rem auto;
+    /* position: relative; */
+    /* background-color: transparent; */
+    /* margin-top: -2rem; */
+    /* z-index: 10; */
+}
+
+.card{
+    /* margin: -10rem auto; */
+    /* margin: 1rem; */
+    width: 581.16px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+height: 230.19px;
+background: #FFFFFF;
+box-shadow: 0px 0px 134.516px -46.4516px rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+
+
+}
+
+.card .name{
+    margin: 3rem auto;
+font-weight: 600;
+font-size: 18.5807px;
+line-height: 25px;
+
+/* identical to box height */
+
+color: #373737;
+}
+
+
+.card .post{
+
+font-weight: 400;
+font-size: 12.3871px;
+line-height: 17px;
+color: #373737;
+
+}
+
+.card .para{
+    text-align: center;
+/* width: 480px; */
+font-weight: 400;
+font-size: 18.5807px;
+line-height: 25px;
+margin: 0 2rem;
+color: #515151;
+
+
+
+}
+
+.card .image{
+    z-index: 100;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    /* top: -2rem; */
+    position: absolute;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .slider{
+        /* margin: 5rem; */
+        /* width: 60%; */
+        /* width: 100%; */
+        /* height: 80vh; */
+        /* position: relative; */
+        /* background-color: transparent; */
+        /* margin-top: -2rem; */
+        /* z-index: 10; */
+    }
+    
+    .card{
+        /* margin: -10rem auto; */
+        /* margin: 1rem; */
+        width: 581.16px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    height: 230.19px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 134.516px -46.4516px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    
+    
+    }
+    
+    .card .name{
+        margin: 3rem auto;
+    font-weight: 600;
+    font-size: 18.5807px;
+    line-height: 25px;
+    
+    /* identical to box height */
+    
+    color: #373737;
+    }
+    
+    
+    .card .post{
+    
+    font-weight: 400;
+    font-size: 12.3871px;
+    line-height: 17px;
+    color: #373737;
+    
+    }
+    
+    .card .para{
+        text-align: center;
+    /* width: 480px; */
+    font-weight: 400;
+    font-size: 18.5807px;
+    line-height: 25px;
+    margin: 0 2rem;
+    color: #515151;
+    
+    
+    
+    }
+    
+    .card .image{
+        z-index: 100;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        /* top: -2rem; */
+        position: absolute;
+    }
+    
+}

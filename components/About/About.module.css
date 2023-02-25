@@ -1,0 +1,112 @@
+.about{
+/* background: #1E1E1E; */
+width: 100%;
+
+/* margin: 1rem 1rem; */
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+justify-items: center;
+/* margin:  20rem auto; */
+/* margin: 0 auto; */
+height: 33vh;
+font-family: 'DM Serif Text';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 110%;
+color: #1F1F1F;
+text-align: center;
+}
+
+.about h1{
+    text-align: center;
+    /* margin: 0 auto; */
+    /* width: 118px; */
+    height: 33px;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+}
+
+.about span{
+    /* height: 400px; */
+    width: 100%;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+
+
+.about p{
+padding-bottom: 1em;
+margin: 1rem 5rem;
+width: fit-content;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .about{
+        /* width: 33.33%; */
+        height: 80vh;
+        margin:  0 auto;
+        font-size: 24px;
+    }
+
+    .about h1{
+        font-size: 30px;
+    }
+
+    .about span{
+        font-size: 18px;
+    }
+
+    .about p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about{
+        height: 70vh;
+        /* max-width: 100%; */
+        /* width: 25%; */
+        /* max-width: 767px; */
+        /* height: 50rem; */
+        /* margin:  2rem; */
+        /* margin-left: 2rem; */
+        /* margin-right: 2rem; */
+        font-size: 24px;
+    }
+
+    .about h1{
+        margin: 1rem auto;
+        font-size: 2rem
+    }
+
+    .about span{
+        margin: 1rem auto;
+        font-size: 1.2rem
+    }
+
+    .about p{
+        margin: 1rem 0rem;
+        width: fit-content;
+        font-size: 1rem;
+
+    }
+
+}
