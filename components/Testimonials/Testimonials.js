@@ -5,7 +5,7 @@ import Image from "next/image";
 import left from "../../public/social/left_circle.svg";
 import right from "../../public/social/right_circle.svg";
 import Slider from "./Slider/Slider";
-import { Card } from "@mui/material";
+import { Button, Card } from "@mui/material";
 import client_logo1 from "../../public/social/client_logo1.svg";
 import client_logo2 from "../../public/social/client_logo2.svg";
 import client_logo3 from "../../public/social/client_logo3.svg";
@@ -36,6 +36,9 @@ const Testimonials = () => {
       <div className={classes.testimonials_contain}>
         <div className={classes.slider_container}>
           <Slider />
+        </div>
+        <div className={classes.btn}>
+          <Button className={classes.viewmore}>View More</Button>
         </div>
         <div className={classes.lower}> 
         <h1>Our Major Clients</h1>
