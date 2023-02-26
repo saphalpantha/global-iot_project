@@ -41,7 +41,7 @@ const Hero = () => {
                             <span>View Article</span>
                         </div>
                     </div>
-                    <Image src={tagline} className={classes.tagline} width={60} height={60} />
+                    <Image src={tagline} className={classes.tagline} width={30} height={30} />
                 </div>
         </div>
         <div className={classes.hero_right}>
