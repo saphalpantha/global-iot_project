@@ -5,12 +5,12 @@ import Hero from "../components/Hero/Hero";
 import News from "../components/News/News";
 import OurService from "../components/Services/OurService";
 import Testimonials from "../components/Testimonials/Testimonials";
+import Model from "../components/UI/Model/PortalRoot";
 import Us from "../components/WhyUs/Us";
 
 export default function Home() {
   return (
     <>
-
     <Header/>
     <Hero/>
     <OurService/>

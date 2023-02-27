@@ -45,6 +45,40 @@
 
 
 
+.hovertrue{
+  width: 80%;
+  height: 50vh;
+  background-color: blue;
+}
+
+
+.model{
+  position: absolute;
+  position: absolute;
+  z-index: 200;
+  transition: all 200ms ease-out;
+  /* margin: 9rem auto; */
+width: 1086px;
+height: 722px;
+left: 177px;
+top: 138px;
+background: #FFFFFF;
+border-radius: 0px 0px 10px 10px;
+
+
+
+}
+c
+
+.styleli{
+transition: all 200ms ease-in;
+width: 108px;
+height: 69px;
+
+background: #FFFFFF;
+border-radius: 10px 10px 0px 0px;
+}
+
 @media screen and (max-width: 768px) {
     .nav {
       flex-direction: column;

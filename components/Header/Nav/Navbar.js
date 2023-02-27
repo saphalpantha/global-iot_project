@@ -1,16 +1,39 @@
-import React from 'react'
+import React, { Fragment, useState } from 'react'
 import Image from 'next/image'
 
 import cart from "../../../public/social/cart.svg"
 import classes from './NavBar.module.css'
 import Link from 'next/link'
+import Portal from '../../UI/Model/Hover'
+import HoverOn from '../SearchUI/HoverOn'
+
 const Navbar = () => {
+
+    const [hover, setHover ] = useState(false)
+
+
+    const liHoverHandler = () => {
+        setHover(prev => !prev)
+    }
+
+    const liLeaveHandler = () => {
+        setHover(prev => !prev)
+    }
+
+    const navHandler = <Portal className={classes.model}>
+        <HoverOn/>
+    </Portal> 
+
+
     return (
+        <Fragment>
+                {(hover) && navHandler}
     <nav className={classes.nav} >
+        
         <ul className={classes.nav_flex}>
-            <div>
+            <div className={ hover && classes.styleli}> 
                 <Link href="/">
-            <li>Training</li>
+            <li onMouseOver={liHoverHandler}>Training</li>
                 
 
                 </Link>
@@ -43,6 +66,7 @@ const Navbar = () => {
             </div>
         </ul>
     </nav>
+        </Fragment>
   )
 }
 
