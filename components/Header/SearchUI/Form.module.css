@@ -32,29 +32,54 @@
   }
 
 
-  .model_form{
-    position: absolute;
-width: 891px;
-height: 73px;
-  margin: 10rem 20rem;
-border-radius: 15px
+  .model_container{
+    /* position: absolute; */
+    background-color: rgb(240, 240, 240);
+/* width: 100%; */
+  height: 4rem;
+    /* padding-top: 5em; */
+    width: 66rem;
+    /* padding-bottom: 20em; */
+    margin: 10rem auto;
+    position: relative;
+    border-radius: 15px
+  }
+
+
+  .extend{
+    padding-bottom: 20em;
+    height: 10rem;
   }
   
+.model_container .model_form{
+  transition: all 200ms ease-in;
+  border-radius: 15px;
+  position: absolute;
+  /* width: 97.5%; */
+  width: 97.9%;
+  margin: 0rem auto;
+  /* margin-right: 10rem; */
+  /* z-index: 200; */
+  /* height: 50%; */
+}
 
-  .model{
-    /* width: 500px; */
-    /* height: 200rem; */
-    /* height: 100vh; */
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background-color: rgba(11, 11, 11, 0.566);
-    margin: 0 auto;
-    /* margin: 10rem auto; */
-    /* padding-top: 20em; */
+
+.model{
+  transition: all 200ms ease-in;
+  /* width: 500px; */
+  /* height: 200rem; */
+  /* height: 100vh; */
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(11, 11, 11, 0.749);
+  margin: 0 auto;
+  /* border-radius:0rem; */
+  /* margin: 10rem auto; */
+  /* padding-top: 20em; */
     /* margin: 10rem   20rem; */
     /* position: relative; */
-    position: absolute;
+    /* position: absolute; */
     /* width: 891px; */
     /* height: 73px; */
     /* height: 100vh; */
@@ -62,7 +87,7 @@ border-radius: 15px
     /* top: 254px; */
     z-index: 100;
     /* background: #0202024f; */
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 
@@ -83,3 +108,48 @@ border-radius: 15px
   font-weight: 200;
   transform: rotate(-1deg);
 }
+
+.form_style .ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* padding-top:5 rem; */
+  /* top */
+  /* position: absolute; */
+  /* margin: 0 2rem; */
+  
+}
+
+.form_style .ul li{
+  margin: 1rem;
+  
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+color: #424242;
+}
+
+
+.form_style .ul li{
+
+width: 812px;
+height: 0px;
+}
+
+.form_style .ul hr{
+width: 812px;
+margin: 0.5rem;
+
+color: #E1E1E1;
+/* height: 10r; */
+}
+
+
+
+
+
+

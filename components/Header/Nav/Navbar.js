@@ -16,9 +16,6 @@ const Navbar = () => {
         setHover(prev => !prev)
     }
 
-    const liLeaveHandler = () => {
-        setHover(prev => !prev)
-    }
 
     const navHandler = <Portal className={classes.model}>
         <HoverOn/>
